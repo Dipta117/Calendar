@@ -32,7 +32,7 @@ int main()
     system("cls");
     printf("\n\t===================================================");
 
-    printf("\n                       \t Calender of %d",year);
+    printf("\n                       \t Calendar of %d",year);
         printf("\n\t===================================================");
         printf("\n\n");
 
