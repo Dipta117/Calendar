@@ -24,13 +24,17 @@ int main()
     SetConsoleWindowInfo(console, TRUE, &rect);
 
     int year,i,j,k=0,m;
-    char month[100][100]={"January","February","March","April","May","June","July","August","September","October","November","December"};
+    char month[100][100]={"[ January ]","[ February ]","[ March ]","[ April ]","[ May ]","[ June ]","[ July ]","[ August ]","[ September ]","[ October ]","[ November]","[ December ]"};
     printf("Input Year :  ");
     scanf("%d",&year);
     l1:
 
     system("cls");
-    printf("\n                       \t Calender of %d\n\n",year);
+    printf("\n\t===================================================");
+
+    printf("\n                       \t Calender of %d",year);
+        printf("\n\t===================================================");
+        printf("\n\n");
 
 int less=year;
 int a=2023,y,d=0;
