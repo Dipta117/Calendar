@@ -235,7 +235,7 @@ if(k==7)
 
 
     }
-    printf("\n\tPress p to see calender of %d  or  n  to see calender of %d",year-1,year+1);
+    printf("\n\tPress p to see calendar of %d  or  n  to see calendar of %d",year-1,year+1);
 
     while(1)
     {if(kbhit())
